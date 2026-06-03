@@ -1,0 +1,83 @@
+<svg viewBox="0 0 400 280" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect width="400" height="280" fill="#1a1a2e" rx="12"/>
+  <text x="200" y="22" text-anchor="middle" fill="#FF6B2B" font-size="13" font-weight="bold">GENERADOR DE EMERGENCIA — MOTOR DE JUGUETE</text>
+
+  <!-- Motor DC (caja) -->
+  <rect x="50" y="80" width="80" height="70" rx="10" fill="#2a3a4a" stroke="#4a6a8a" stroke-width="2"/>
+  <text x="90" y="108" text-anchor="middle" fill="#4a9aff" font-size="11" font-weight="bold">MOTOR</text>
+  <text x="90" y="122" text-anchor="middle" fill="#4a9aff" font-size="10">DC</text>
+  <!-- Eje del motor -->
+  <rect x="130" y="110" width="25" height="10" rx="3" fill="#888"/>
+  <!-- Manivela -->
+  <line x1="155" y1="115" x2="175" y2="95" stroke="#aaa" stroke-width="3"/>
+  <circle cx="175" cy="95" r="6" fill="#888" stroke="#aaa" stroke-width="1.5"/>
+  <text x="185" y="92" fill="#aaa" font-size="9">manivela</text>
+  <text x="185" y="103" fill="#666" font-size="8">(alambre doblado)</text>
+
+  <!-- Símbolo de giro -->
+  <path d="M90 140 Q110 155 130 140" stroke="#FF6B2B" stroke-width="2" fill="none" marker-end="url(#rot)"/>
+  <text x="90" y="158" text-anchor="middle" fill="#FF6B2B" font-size="9">¡girá rápido!</text>
+  <defs>
+    <marker id="rot" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#FF6B2B"/>
+    </marker>
+    <marker id="el" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#FFD700"/>
+    </marker>
+    <marker id="eu" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#30D158"/>
+    </marker>
+  </defs>
+
+  <!-- Cables del motor -->
+  <!-- Cable rojo (positivo) -->
+  <line x1="50" y1="95" x2="20" y2="95" stroke="#ff4444" stroke-width="2.5"/>
+  <line x1="20" y1="95" x2="20" y2="190" stroke="#ff4444" stroke-width="2.5"/>
+  <!-- Cable negro (negativo) -->
+  <line x1="50" y1="135" x2="20" y2="135" stroke="#888" stroke-width="2.5"/>
+  <line x1="20" y1="135" x2="20" y2="210" stroke="#888" stroke-width="2.5"/>
+
+  <!-- Flecha flujo eléctrico -->
+  <text x="8" y="170" fill="#FFD700" font-size="18" font-weight="bold">⚡</text>
+
+  <!-- CAPACITOR (opcional pero recomendado) -->
+  <rect x="155" y="155" width="50" height="65" rx="8" fill="#1a2a1a" stroke="#30D158" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <text x="180" y="175" text-anchor="middle" fill="#30D158" font-size="8" font-weight="bold">CAP.</text>
+  <text x="180" y="186" text-anchor="middle" fill="#30D158" font-size="8">1000uF</text>
+  <text x="180" y="197" text-anchor="middle" fill="#30D158" font-size="8">16V</text>
+  <text x="180" y="212" text-anchor="middle" fill="#30D158" font-size="7">opcional</text>
+  <!-- Pines capacitor -->
+  <line x1="168" y1="155" x2="168" y2="148" stroke="#30D158" stroke-width="2"/>
+  <line x1="192" y1="155" x2="192" y2="148" stroke="#888" stroke-width="2"/>
+  <line x1="20" y1="190" x2="168" y2="190" stroke="#ff4444" stroke-width="2" stroke-dasharray="4,3" opacity="0.6"/>
+  <line x1="20" y1="210" x2="192" y2="210" stroke="#888" stroke-width="2" stroke-dasharray="4,3" opacity="0.6"/>
+
+  <!-- USB CORTADO (conector) -->
+  <rect x="270" y="170" width="70" height="45" rx="8" fill="#2a2a4a" stroke="#666" stroke-width="1.5"/>
+  <rect x="283" y="183" width="44" height="18" rx="3" fill="#111" stroke="#555" stroke-width="1"/>
+  <text x="305" y="196" text-anchor="middle" fill="#aaa" font-size="10" font-weight="bold">USB</text>
+  <text x="305" y="226" text-anchor="middle" fill="#888" font-size="8">cable cortado</text>
+
+  <!-- Cables hacia USB -->
+  <!-- Rojo -->
+  <line x1="168" y1="148" x2="270" y2="183" stroke="#ff4444" stroke-width="2.5"/>
+  <!-- Negro -->
+  <line x1="192" y1="148" x2="270" y2="192" stroke="#888" stroke-width="2.5"/>
+
+  <!-- Celular recibiendo carga -->
+  <rect x="340" y="100" width="45" height="80" rx="8" fill="#1a1a3a" stroke="#4af" stroke-width="2"/>
+  <rect x="347" y="108" width="31" height="55" rx="4" fill="#0a2a4a"/>
+  <text x="362" y="138" text-anchor="middle" fill="#4af" font-size="18">📱</text>
+  <!-- Indicador de carga -->
+  <rect x="352" y="168" width="20" height="6" rx="2" fill="#333"/>
+  <rect x="352" y="168" width="10" height="6" rx="2" fill="#FF6B2B"/>
+  <!-- Cable USB al celular -->
+  <line x1="340" y1="185" x2="327" y2="192" stroke="#4af" stroke-width="2"/>
+
+  <!-- Leyenda colores cables -->
+  <rect x="50" y="220" width="250" height="50" rx="8" fill="#111128"/>
+  <circle cx="68" cy="235" r="5" fill="#ff4444"/>
+  <text x="80" y="239" fill="#eee" font-size="9">Cable ROJO del motor → cable ROJO del USB (+5V)</text>
+  <circle cx="68" cy="255" r="5" fill="#888"/>
+  <text x="80" y="259" fill="#eee" font-size="9">Cable NEGRO del motor → cable NEGRO del USB (tierra)</text>
+</svg>

@@ -1,0 +1,79 @@
+<svg viewBox="0 0 400 280" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect width="400" height="280" fill="#1a1a2e" rx="12"/>
+  <text x="200" y="22" text-anchor="middle" fill="#FF6B2B" font-size="13" font-weight="bold">MASCARILLA CASERA — 3 TIPOS</text>
+
+  <!-- TIPO 1: Básica de tela -->
+  <rect x="15" y="35" width="115" height="140" rx="10" fill="#111128" stroke="#444" stroke-width="1"/>
+  <text x="72" y="52" text-anchor="middle" fill="#30D158" font-size="10" font-weight="bold">TIPO 1 · Básica</text>
+
+  <!-- Mascarilla vista frontal -->
+  <rect x="32" y="60" width="80" height="55" rx="12" fill="#2a4a6a" stroke="#4a8aaa" stroke-width="2"/>
+  <!-- Capas de tela -->
+  <line x1="32" y1="73" x2="112" y2="73" stroke="#4a8aaa" stroke-width="1" opacity="0.5"/>
+  <line x1="32" y1="86" x2="112" y2="86" stroke="#4a8aaa" stroke-width="1" opacity="0.5"/>
+  <line x1="32" y1="99" x2="112" y2="99" stroke="#4a8aaa" stroke-width="1" opacity="0.5"/>
+  <!-- Tiras laterales -->
+  <line x1="32" y1="75" x2="15" y2="68" stroke="#4a8aaa" stroke-width="2"/>
+  <line x1="32" y1="95" x2="15" y2="102" stroke="#4a8aaa" stroke-width="2"/>
+  <line x1="112" y1="75" x2="130" y2="68" stroke="#4a8aaa" stroke-width="2"/>
+  <line x1="112" y1="95" x2="130" y2="102" stroke="#4a8aaa" stroke-width="2"/>
+  <!-- Pliegue nariz -->
+  <path d="M55 60 Q72 54 89 60" stroke="#6aaacc" stroke-width="2" fill="none"/>
+
+  <text x="72" y="130" text-anchor="middle" fill="#aaa" font-size="8">25×15cm de tela</text>
+  <text x="72" y="141" text-anchor="middle" fill="#aaa" font-size="8">algodón · 3 capas</text>
+  <text x="72" y="152" text-anchor="middle" fill="#aaa" font-size="8">tiras de 35cm</text>
+  <text x="72" y="163" text-anchor="middle" fill="#30D158" font-size="8">✓ Reutilizable</text>
+
+  <!-- TIPO 2: Con filtro -->
+  <rect x="142" y="35" width="115" height="140" rx="10" fill="#111128" stroke="#444" stroke-width="1"/>
+  <text x="199" y="52" text-anchor="middle" fill="#FFD700" font-size="10" font-weight="bold">TIPO 2 · Mejorada</text>
+
+  <!-- Vista de corte -->
+  <rect x="158" y="60" width="83" height="58" rx="12" fill="#2a4a6a" stroke="#4a8aaa" stroke-width="2"/>
+  <!-- Bolsillo del filtro (vista lateral esquemática) -->
+  <rect x="168" y="72" width="63" height="25" rx="4" fill="#1a3a5a" stroke="#FFD700" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <text x="199" y="83" text-anchor="middle" fill="#FFD700" font-size="8" font-weight="bold">FILTRO</text>
+  <text x="199" y="93" text-anchor="middle" fill="#FFD700" font-size="7">papel cocina·tela no tejida</text>
+  <!-- Flecha insertar filtro -->
+  <line x1="231" y1="85" x2="248" y2="85" stroke="#FFD700" stroke-width="1.5" marker-end="url(#yar)"/>
+  <defs>
+    <marker id="yar" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#FFD700"/>
+    </marker>
+  </defs>
+
+  <text x="199" y="128" text-anchor="middle" fill="#aaa" font-size="8">bolsillo cosido</text>
+  <text x="199" y="139" text-anchor="middle" fill="#aaa" font-size="8">entre las capas</text>
+  <text x="199" y="150" text-anchor="middle" fill="#aaa" font-size="8">filtro cada 4-6h</text>
+  <text x="199" y="163" text-anchor="middle" fill="#FFD700" font-size="8">✓ Mayor filtración</text>
+
+  <!-- TIPO 3: Improvisada con remera -->
+  <rect x="270" y="35" width="115" height="140" rx="10" fill="#111128" stroke="#444" stroke-width="1"/>
+  <text x="327" y="52" text-anchor="middle" fill="#FF6B2B" font-size="10" font-weight="bold">TIPO 3 · Rápida</text>
+
+  <!-- Remera en la cabeza -->
+  <ellipse cx="327" cy="85" rx="28" ry="30" fill="#3a3a5a" stroke="#666" stroke-width="1.5"/>
+  <!-- Cara -->
+  <ellipse cx="320" cy="78" rx="4" ry="5" fill="#2a2a4a"/>
+  <ellipse cx="334" cy="78" rx="4" ry="5" fill="#2a2a4a"/>
+  <!-- Remera cubriendo -->
+  <path d="M299 90 Q310 110 327 112 Q344 110 355 90" fill="#2a4a6a" stroke="#4a8aaa" stroke-width="1.5"/>
+  <path d="M299 90 Q305 80 315 85 Q320 88 327 87 Q334 88 339 85 Q349 80 355 90" fill="#2a4a6a" stroke="#4a8aaa" stroke-width="1.5"/>
+  <!-- Cuello de la remera sobre nariz -->
+  <path d="M313 85 Q327 80 341 85" stroke="#6aaacc" stroke-width="2.5" fill="none"/>
+  <text x="327" y="55" text-anchor="middle" fill="#888" font-size="8">cuello sobre nariz</text>
+
+  <text x="327" y="128" text-anchor="middle" fill="#aaa" font-size="8">remera sobre</text>
+  <text x="327" y="139" text-anchor="middle" fill="#aaa" font-size="8">la cabeza</text>
+  <text x="327" y="150" text-anchor="middle" fill="#aaa" font-size="8">cuello sobre boca</text>
+  <text x="327" y="163" text-anchor="middle" fill="#FF6B2B" font-size="8">⚡ En segundos</text>
+
+  <!-- Nota importante abajo -->
+  <rect x="15" y="185" width="370" height="85" rx="8" fill="#111128" stroke="#555" stroke-width="1"/>
+  <text x="200" y="202" text-anchor="middle" fill="#FF6B2B" font-size="10" font-weight="bold">⚠️ IMPORTANTE — Lo que NO protegen las mascarillas caseras:</text>
+  <text x="200" y="218" text-anchor="middle" fill="#eee" font-size="9">✗ Gases tóxicos o humos químicos</text>
+  <text x="200" y="232" text-anchor="middle" fill="#eee" font-size="9">✗ Partículas muy pequeñas (aerosoles ultrafinos)</text>
+  <text x="200" y="246" text-anchor="middle" fill="#30D158" font-size="9">✓ Gotículas grandes · polvo · partículas gruesas</text>
+  <text x="200" y="260" text-anchor="middle" fill="#30D158" font-size="9">✓ Barrera básica útil en emergencias comunes</text>
+</svg>

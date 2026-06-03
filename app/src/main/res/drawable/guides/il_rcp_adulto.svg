@@ -1,0 +1,78 @@
+<svg viewBox="0 0 400 280" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect width="400" height="280" fill="#1a1a2e" rx="12"/>
+
+  <!-- Título -->
+  <text x="200" y="24" text-anchor="middle" fill="#FF6B2B" font-size="13" font-weight="bold">RCP — POSICIÓN CORRECTA DE MANOS</text>
+
+  <!-- Cuerpo acostado (torso) -->
+  <rect x="60" y="60" width="280" height="110" rx="30" fill="#2a2a4a" stroke="#444" stroke-width="1.5"/>
+  <!-- Cabeza -->
+  <ellipse cx="355" cy="115" rx="28" ry="32" fill="#3a3a5a" stroke="#444" stroke-width="1.5"/>
+  <!-- Cara -->
+  <ellipse cx="363" cy="108" rx="5" ry="6" fill="#2a2a4a"/>
+  <ellipse cx="348" cy="108" rx="5" ry="6" fill="#2a2a4a"/>
+  <path d="M348 122 Q355 127 363 122" stroke="#666" stroke-width="1.5" fill="none"/>
+  <!-- Cuello -->
+  <rect x="325" y="95" width="30" height="40" rx="8" fill="#3a3a5a" stroke="#444" stroke-width="1"/>
+
+  <!-- Línea del esternón -->
+  <line x1="200" y1="65" x2="200" y2="165" stroke="#FF6B2B" stroke-width="1" stroke-dasharray="4,3" opacity="0.5"/>
+
+  <!-- Pezones (referencia) -->
+  <circle cx="170" cy="100" r="5" fill="#FF6B2B" opacity="0.6"/>
+  <circle cx="230" cy="100" r="5" fill="#FF6B2B" opacity="0.6"/>
+  <line x1="170" y1="100" x2="230" y2="100" stroke="#FF6B2B" stroke-width="1" stroke-dasharray="3,3" opacity="0.5"/>
+
+  <!-- PUNTO DE COMPRESIÓN -->
+  <circle cx="200" cy="115" r="14" fill="#FF6B2B" opacity="0.25"/>
+  <circle cx="200" cy="115" r="8" fill="#FF6B2B"/>
+  <text x="200" y="119" text-anchor="middle" fill="white" font-size="10" font-weight="bold">★</text>
+
+  <!-- Manos sobre el pecho -->
+  <!-- Mano inferior -->
+  <rect x="175" y="125" width="50" height="22" rx="8" fill="#c8a882" stroke="#a07850" stroke-width="1.5"/>
+  <line x1="183" y1="125" x2="183" y2="147" stroke="#a07850" stroke-width="1"/>
+  <line x1="192" y1="125" x2="192" y2="147" stroke="#a07850" stroke-width="1"/>
+  <line x1="201" y1="125" x2="201" y2="147" stroke="#a07850" stroke-width="1"/>
+  <line x1="210" y1="125" x2="210" y2="147" stroke="#a07850" stroke-width="1"/>
+  <!-- Mano superior (entrelazada) -->
+  <rect x="175" y="110" width="50" height="18" rx="7" fill="#b89870" stroke="#906840" stroke-width="1.5"/>
+  <line x1="183" y1="110" x2="183" y2="128" stroke="#906840" stroke-width="1"/>
+  <line x1="192" y1="110" x2="192" y2="128" stroke="#906840" stroke-width="1"/>
+  <line x1="201" y1="110" x2="201" y2="128" stroke="#906840" stroke-width="1"/>
+  <line x1="210" y1="110" x2="210" y2="128" stroke="#906840" stroke-width="1"/>
+
+  <!-- Brazo izquierdo del rescatista -->
+  <rect x="140" y="105" width="40" height="12" rx="6" fill="#b89870" stroke="#906840" stroke-width="1"/>
+  <!-- Brazo derecho del rescatista -->
+  <rect x="220" y="105" width="40" height="12" rx="6" fill="#b89870" stroke="#906840" stroke-width="1"/>
+
+  <!-- Flecha de presión -->
+  <line x1="200" y1="75" x2="200" y2="105" stroke="#FF6B2B" stroke-width="3" marker-end="url(#arrow)"/>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#FF6B2B"/>
+    </marker>
+  </defs>
+  <text x="215" y="88" fill="#FF6B2B" font-size="10" font-weight="bold">5-6 cm</text>
+
+  <!-- Leyenda inferior -->
+  <rect x="30" y="185" width="340" height="80" rx="8" fill="#111128"/>
+
+  <circle cx="50" cy="205" r="7" fill="#FF6B2B"/>
+  <text x="50" y="209" text-anchor="middle" fill="white" font-size="9" font-weight="bold">1</text>
+  <text x="64" y="209" fill="#eee" font-size="10">Talón de la mano en el CENTRO del pecho</text>
+
+  <circle cx="50" cy="225" r="7" fill="#FF6B2B"/>
+  <text x="50" y="229" text-anchor="middle" fill="white" font-size="9" font-weight="bold">2</text>
+  <text x="64" y="229" fill="#eee" font-size="10">Segunda mano encima, dedos entrelazados</text>
+
+  <circle cx="50" cy="245" r="7" fill="#FF6B2B"/>
+  <text x="50" y="249" text-anchor="middle" fill="white" font-size="9" font-weight="bold">3</text>
+  <text x="64" y="249" fill="#eee" font-size="10">Brazos RECTOS · 30 compresiones · 100-120/min</text>
+
+  <!-- Ritmo -->
+  <rect x="270" y="193" width="95" height="28" rx="6" fill="#FF6B2B" opacity="0.15" stroke="#FF6B2B" stroke-width="1"/>
+  <text x="317" y="207" text-anchor="middle" fill="#FF6B2B" font-size="9" font-weight="bold">🎵 Stayin' Alive</text>
+  <text x="317" y="218" text-anchor="middle" fill="#FF6B2B" font-size="9">= ritmo perfecto</text>
+</svg>
