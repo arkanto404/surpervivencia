@@ -1,6 +1,6 @@
 {
   "name": "SurviVal",
-  "description": "Guía de supervivencia 100% offline para emergencias.",
+  "description": "App de supervivencia offline para Argentina",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }
